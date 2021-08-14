@@ -40,7 +40,7 @@ Route::get('add-post',[adminController::class, 'addPost']);
 
 Route::get('category',[adminController::class, 'category']);
 
-Route::get('admin',[adminController::class, 'admin']);
+Route::get('mz-painel',[adminController::class, 'admin']);
 
 Route::get('login',[adminController::class, 'login']);
 

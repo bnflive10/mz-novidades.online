@@ -18,7 +18,7 @@
 
 <div class="sidebar">
 	<ul class="sidebar-menu">
-		<li><a href="{{url('admin')}}" class="dashboard"><i class="fa fa-tachometer"></i> <span>Dashboard</span></a></li>
+		<li><a href="{{url('mz-painel')}}" class="dashboard"><i class="fa fa-tachometer"></i> <span>Dashboard</span></a></li>
 		<li class="treeview">
             <a href="#">
               <i class="fa fa-bookmark-o"></i> <span>Posts</span>

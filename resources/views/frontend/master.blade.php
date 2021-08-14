@@ -46,6 +46,10 @@
 
   </head>
   <body>
+    <div class="loader">
+        <img src="{{asset('public/images/rings.svg')}}"/>
+    </div>
+    
     <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v11.0" nonce="Iv5LD1E4"></script>
 <div id="fb-root"></div>

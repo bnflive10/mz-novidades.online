@@ -77,6 +77,12 @@
 
 })(jQuery);
 
+$(function(){
+    setTimeout(()=>{
+        $(".loader").fadeOut(300);
+    },1000)
+})
+
 function buttonUp(){
                 var inputVal = $('.searchbox-input').val();
                 inputVal = $.trim(inputVal).length;
